@@ -1,0 +1,47 @@
+.grid-container{
+    background-color: gray;
+    display:grid;
+    grid-template-columns: repeat(3,30%);
+    gap:15px;
+    font-size:1.5rem;
+    height:500px;
+    width:100%;
+}
+.grid-item{
+    grid-row:1/span 4;
+    background-color: red;
+    text-align: center;
+}
+.grid-item-one{
+    background-color: orange;
+    text-align: center;
+}
+.grid-item-two{
+    background-color:blue;
+    text-align: center;
+}
+.grid-item-three{
+    background-color:yellow;
+    text-align:center;
+}
+.grid-item-four{
+    background-color:pink;
+    text-align:center;
+}
+.grid-item-five{
+grid-column:1/-1;
+grid-column-start: 2;
+text-align:center;
+background-color:purple;
+}
+.grid-item-six{ 
+    grid-column: 1/2;
+    grid-column-start: 2;
+    place-items: center;
+    text-align:center;
+    background-color:green;
+}
+.grid-item-seven{
+    text-align:center;
+    background-color:greenyellow;
+}
